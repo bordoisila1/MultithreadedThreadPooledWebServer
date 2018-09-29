@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/SimpleHttpWebServer/com/main/utilities/ServerUtility.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleHttpWebServer/resources/babylu.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleHttpWebServer/resources/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/resources/babylu.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,17 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2582" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="babylu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/babylu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <caret line="12" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2582" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,11 +185,6 @@
             <path>
               <item name="SimpleHttpWebServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleHttpWebServer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleHttpWebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleHttpWebServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +279,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538018883031</updated>
       <workItem from="1538018886063" duration="19671000" />
-      <workItem from="1538186477637" duration="8487000" />
+      <workItem from="1538186477637" duration="8558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28158000" />
+    <option name="totallyTimeSpent" value="28229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1270" height="871" extended-state="0" />
@@ -486,7 +472,7 @@
     <entry file="file://$PROJECT_DIR$/src/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2582" selection-end-column="0" />
+          <caret line="12" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2582" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -528,7 +514,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
