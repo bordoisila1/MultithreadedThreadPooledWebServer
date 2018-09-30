@@ -2,10 +2,10 @@
 
 ## Introduction
 #### Contains the code in Java for a VERY SIMPLE multithreaded ( pooled ) web server, that has the following characterstics : 
-1. Only GET method is allowed.
+1. Only GET method is allowed. ( for simpilcity )
 2. Other HTTP Methods return a 405 Method Not Allowed response.
-3. Only files in the src/resources directory are served. If not found, returns a 404 Not Found response.
-4. Exceptions will return a 500 Internal Server Error
+3. Only files in the src/resources directory are served - WEB ROOT. If not found, returns a 404 Not Found response.
+4. Exceptions will return a 500 Internal Server Error ( Check logs for more details )
 5. There is scope of 422 - Unprocessable entity ( for future )
 6. There is scope for serving complex resources if neeed ( For future )
 7. Default content type that's served is text/html for simplicity purposes
