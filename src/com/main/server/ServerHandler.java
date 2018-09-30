@@ -85,7 +85,7 @@ public class ServerHandler implements Runnable  {
 
           LOGGER.info("****Current path is****");
 
-          if (ServerUtility.resourceExists(requestPath)) { // Handles 200
+          if (ServerUtility.resourceExists(requestPath) || requestPath.equals("/")) { // Handles 200
 
             responseMessage = ServerUtility.readFileContents(requestPath);//TODO - Fetch File Data - Default - Fallback to index.html data
 
@@ -115,6 +115,7 @@ public class ServerHandler implements Runnable  {
           responseHeader = new HttpResponseHeader()
               .buildResponseHeader(HttpResponseHeader.STATUS_CODE_405, responseMessage.length());
         } else { // Handles 500
+          LOGGER.severe("BR string : " + input);
           throw new Exception
               ("Something went wrong during handling the client request with Request method :" + requestMethod );
         }

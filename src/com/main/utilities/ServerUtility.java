@@ -27,6 +27,8 @@ public class ServerUtility {
    */
   private static final String DEFAULT_RESOURCES_PATH = System.getProperty("user.dir") + "/src/resources";
 
+  private static final String DEFAULT_INDEX_FILE_NAME = "welcome.html";
+
   /**
    * Sets the serverSocket attribute of the SimpleWebServer instance
    *
@@ -98,7 +100,11 @@ public class ServerUtility {
    * @return
    */
   public static String readFileContents(String filePath) throws Exception{
-    filePath = DEFAULT_RESOURCES_PATH + filePath;
+    if(!filePath.equals("/")) {
+      filePath = DEFAULT_RESOURCES_PATH + filePath;
+    } else {
+      filePath = DEFAULT_RESOURCES_PATH + "/" + DEFAULT_INDEX_FILE_NAME; // for Welcome Page
+    }
     String contents = new String(Files.readAllBytes(Paths.get(filePath)), HttpResponseHeader.DEFAULT_CHARSET);
     return contents;
   }
