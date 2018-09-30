@@ -16,7 +16,7 @@ public class App {
     LOGGER.setLevel(Level.INFO);
   }
 
-  private static int serverRunningTime = 60 * 10000; //10 minutes
+  private static int serverRunningTime = 60 * 1000; //1 minute
 
   public static void main(String[] args) throws Exception {
     //Starts the server at 9001 port ( customizable via args/config if needed )
