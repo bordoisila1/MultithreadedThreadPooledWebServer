@@ -13,7 +13,7 @@
 
 ## How to run ?
 1. Run the application from the App.java class
-2. Visit localhost:9001/index.html ( Default port )
+2. Visit [http://localhost:9001](http://localhost:9001) or [http://localhost:9001/index.html](http://localhost:9001/index.html) ( Default port )
 
 ## Contribution
 Please feel free to contribute
