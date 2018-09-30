@@ -29,7 +29,7 @@ public class App {
 
     new Thread(server).start(); // Signals the server Runnable to start
 
-    //Usually can be handled by an user interrupt
+    //Should be handled by shutdown hooks etc.
     try {
       Thread.sleep(serverRunningTime); //1 minute
     } catch (InterruptedException e) {
