@@ -19,7 +19,8 @@ public class App {
   private static int serverRunningTime = 60 * 10000; //10 minutes
 
   public static void main(String[] args) throws Exception {
-    SimpleWebServer server = new SimpleWebServer(9001); //Makes the server start at 9001 port ( customizable via args if needed )
+    //Starts the server at 9001 port ( customizable via args/config if needed )
+    SimpleWebServer server = new SimpleWebServer(9001);
 
     if(null == server) {
       LOGGER.warning("Server could not be created");
