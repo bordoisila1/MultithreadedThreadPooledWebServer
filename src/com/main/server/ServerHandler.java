@@ -116,7 +116,7 @@ public class ServerHandler implements Runnable  {
               .buildResponseHeader(HttpResponseHeader.STATUS_CODE_405, responseMessage.length());
         } else { // Handles 500
           throw new Exception
-              ("Something went wrong during handling the client request");
+              ("Something went wrong during handling the client request with Request method :" + requestMethod );
         }
       } else { // Handles 422
         LOGGER.warning("Request data can't be read");

@@ -1,4 +1,4 @@
-# MultithreadedThreadPooledWebServer
+# Multithreaded pooled Web Server
 
 ## Introduction
 #### Contains the code in Java for a VERY SIMPLE multithreaded ( pooled ) web server, that has the following characterstics : 
